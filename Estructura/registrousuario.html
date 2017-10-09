@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<script src="js/jquery-3.2.0.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<title>Registro</title>
+	</head>
+	<body class="background">
+		<div>
+			<center><h1>REGISTRO</h1></center>
+		</div>
+		<div class="container">
+			<form action="registro.php" method="GET">
+				<div class="form group">
+					<label for="usuario">Usuario:</label>
+					<input type="text" class="form-control" placeholder="Introduce tu usuario" name="usuario">
+				</div>
+				<div class="form group">
+					<label for="pwd">Contraseña:</label>
+					<input type="password" class="form-control" placeholder="Introduce la contraseña" name="password">
+				</div>
+				<div class="form group">
+					<label for="nombre">Nombre:</label>
+					<input type="text" class="form-control" placeholder="Ingresa tu nombre" name="nombre">
+				</div>
+				<div class="form group">
+					<label for="paterno">Apellido Paterno:</label>
+					<input type="text" class="form-control" placeholder="Ingresa tu apellido paterno" name="ap_paterno">
+				</div>
+				<div class="form group">
+					<label for="materno">Apellido Materno:</label>
+					<input type="text" class="form-control" placeholder="Ingresa tu apellido materno" name="ap_materno">
+				</div>
+				<div class="form group">
+					<label for="edad">Edad:</label>
+					<input type="text" class="form-control" placeholder="Ingresa tu edad" name="edad">
+				</div>
+				<br>
+				<div class="footer">
+					<input type="submit" class="btn btn-primary" name="submit" value="Registrarse">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
